@@ -49,3 +49,15 @@ def calculator():
 
         except ValueError as e:
             print("Invalid input:", e)
+
+try:
+            again = input("Do you want to try again? (yes/no): ")
+            if again.lower() != 'yes':
+                print("Thank you!")
+                break
+        except KeyboardInterrupt:
+            print("Thank you!")
+            break
+
+if __name__ == "__main__":
+    calculator()
