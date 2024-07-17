@@ -4,3 +4,20 @@
 #Date: July 17, 2024
 #Faculty: Prof. Danilo Madigalejos
 
+//addition
+def add(x, y):
+    return x + y
+
+//subtraction
+def subtract(x, y):
+    return x - y
+
+//multiplication
+def multiply(x, y):
+    return x * y
+
+//division
+def divide(x, y):
+    if y == 0:
+        raise ValueError("Cannot divide by zero")
+    return x / y
